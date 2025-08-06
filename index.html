@@ -33,9 +33,11 @@
     <iframe 
       id="zoomIframe"
       src="https://zoom.us/wc/join/84741182849"
-      allow="microphone; camera; fullscreen"
-      allowfullscreen>
+      allow="camera *; microphone *; display-capture *; fullscreen *; autoplay *"
+      allowfullscreen
+      style="width:100%; height:100%; border:none;">
     </iframe>
+
     <button id="enterFs" class="zoom-btn">🖥️ Entrar pantalla completa</button>
     <button id="exitFs"  class="zoom-btn">❌ Salir pantalla completa</button>
   </div>
